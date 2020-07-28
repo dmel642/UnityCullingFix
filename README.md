@@ -1,5 +1,5 @@
 # BoneworksCullingFix
-This is a MelonLoader mod for fixing the culling/objects popping in and out that occurs in the peripheral vision on wide FOV headsets such as Pimax and the StarVR One. It works with Boneworks and should work with other Unity games with slight code modifications. Credit to KoochyRat for the original code I used in making this mod: https://github.com/koochyrat/SteamVRFrustumAdjust
+This is a MelonLoader mod for fixing the culling/objects popping in & out issue that occurs in the peripheral vision on wide FOV headsets such as Pimax and the StarVR One. It works with Boneworks and should work with other Unity games with slight code modifications. Credit to KoochyRat for the original code I used in making this mod: https://github.com/koochyrat/SteamVRFrustumAdjust
 
 How to install the mod: 
 1. Go to https://melonwiki.xyz/ and install MelonLoader onto the Unity game you want to mod. 
