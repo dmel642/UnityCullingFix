@@ -18,7 +18,8 @@ Here are the steps to patch other Unity games that don't use the ValveCamera cla
 6. In dnspy search for "camera OnPreCull" 
 7. Look through each result finding a class that contains all three methods that are needed: "OnEnable", "OnDisable", and "OnPreCull" 
 8. Take note of the full class name listed in search results (that includes the namespace). 
-9. Replace all references to ValveCamera in the code with the class name you found previously. 
-10. Build the project and place your new CullFix.dll into the Mods folder of the game you want to patch.
+9. Replace all references of ValveCamera in the code to the class name you found previously. 
+10. Remove the old Assembly-CSharp.dll reference in Visual Studio and add a reference to the one in the game you want to patch.
+11. Build the project and place your new CullFix.dll into the Mods folder of the game you want to fix.
 
 If you do patch the culling in another Unity game, please share the dll and source code to save other people time.
