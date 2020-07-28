@@ -22,4 +22,4 @@ Here are the steps to patch other Unity games that don't use the ValveCamera cla
 10. Remove the old Assembly-CSharp.dll reference in Visual Studio and add a reference to the one in the game you want to patch.
 11. Build the project and place your new CullFix.dll into the Mods folder of the game you want to fix.
 
-If you do patch the culling in another Unity game, please share the dll and source code to save other people time.
+If you do patch the culling in another Unity game, please share the dll and class name to save other people time.
