@@ -1,5 +1,5 @@
 # BoneworksCullingFix
-This is a MelonLoader mod for fixing the culling that occurs in wide FOV headsets such as Pimax and the StarVR One. It works with Boneworks and should work with other Unity games with slight code modifications.
+This is a MelonLoader mod for fixing the culling that occurs in wide FOV headsets such as Pimax and the StarVR One. It works with Boneworks and should work with other Unity games with slight code modifications. Credit to KoochyRat for the original code I borrowed: https://github.com/koochyrat/SteamVRFrustumAdjust
 
 How to install the mod: 
 1. Go to https://melonwiki.xyz/ and install MelonLoader onto the Unity game you want to mod. 
