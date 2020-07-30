@@ -12,7 +12,7 @@ This mod was made for Boneworks which uses the class ValveCamera, the Camera cla
 Here are the steps to patch other Unity games that don't use the ValveCamera class: 
 1. Download the visual studio source code project template
 2. Download Visual Studio 2019 and add the .Net framework component located near the bottom of the list of components. For more information on project type see: https://melonwiki.xyz/#/modders/quickstart
-3. In Visual Studio got File -> New -> Create project from existing code. Select the project template and a wizard will pop up letting you name the project.
+3. In Visual Studio go to File -> New -> Create project from existing code. Select the project template and a wizard will pop up letting you name the project.
 4. Download the latest dnspy here: https://github.com/0xd4d/dnSpy/releases
 5. Use Dnspy to open Assembly-CSharp.dll file from MelonLoader/Managed folder inside your game directory
 6. In dnspy search for "camera OnPreCull" 
