@@ -15,7 +15,7 @@ Here are the steps to patch other Unity games that don't use the ValveCamera cla
 3. In Visual Studio go to File -> New -> Create project from existing code. Select the project template and a wizard will pop up letting you name the project.
 4. Download the latest dnspy here: https://github.com/0xd4d/dnSpy/releases
 5. Use Dnspy to open Assembly-CSharp.dll file from MelonLoader/Managed folder inside your game directory
-6. In dnspy search for "camera OnPreCull" 
+6. In dnspy search for "camera OnPreCull" or just "onprecull"
 7. Look through each result finding a class that contains all three methods that are needed: "OnEnable", "OnDisable", and "OnPreCull" 
 8. Take note of the full class name listed in search results (that includes the namespace). 
 9. Replace all references of ValveCamera in the code to the class name you found previously.
