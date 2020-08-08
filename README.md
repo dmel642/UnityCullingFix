@@ -1,17 +1,12 @@
-# BoneworksCullingFix
-This is a MelonLoader mod for fixing the culling/objects popping in & out issue that occurs in the peripheral vision on wide FOV headsets such as Pimax and the StarVR One. It works with Boneworks and should work with other Unity games with slight code modifications. Credit to KoochyRat for the original code I used in making this mod: https://github.com/koochyrat/SteamVRFrustumAdjust
+# Universal Unity Culling Fix
+This is a MelonLoader mod for fixing the culling/objects popping in & out issue that occurs in the peripheral vision on wide FOV headsets such as Pimax and the StarVR One. There are different versions of the mod depending on the type of Unity game, but so far Boneworks, VRChat, Blade & Sorcery, VTOL VR, IronWolf VR, Pistol Whip, Hot Dogs/Horseshoes & Hand grenades, and Republique VR have been tested and working. Other games may work too. Credit to KoochyRat for the original code I used in making this mod: https://github.com/koochyrat/SteamVRFrustumAdjust
 
 How to install the mod: 
 1. Go to https://melonwiki.xyz/ and install MelonLoader onto the Unity game you want to mod. 
 2. Run the game once and then close it. 
-3. Go into your game directory and place CullFix.dll inside the Mods folder
+3. Go into your game directory and place the correct .dll file inside the Mods folder
 4. Run the game and enjoy a culling free experience! 
 
-This mod was made for Boneworks which uses the class ValveCamera, the Camera class may be named differently in other Unity games.
-
-Here are the steps to patch other Unity games that don't use the ValveCamera class: 
-
-UPDATE: There is lot more involved than the steps below. I can't get a universal mod working because SteamVR.dll is missing from some games. The script relies on a call to SteamVR.instance.hmd to do some functionality so I'm still investigating a workaround for a universal solution.
 
 1. Download the visual studio source code project template
 2. Download Visual Studio 2019 and add the .Net framework component located near the bottom of the list of components. For more information on project type see: https://melonwiki.xyz/#/modders/quickstart
