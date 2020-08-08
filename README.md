@@ -10,6 +10,9 @@ How to install the mod:
 This mod was made for Boneworks which uses the class ValveCamera, the Camera class may be named differently in other Unity games.
 
 Here are the steps to patch other Unity games that don't use the ValveCamera class: 
+
+UPDATE: There is lot more involved than the steps below. I can't get a universal mod working because SteamVR.dll is missing from some games. The script relies on a call to SteamVR.instance.hmd to do some functionality so I'm still investigating a workaround for a universal solution.
+
 1. Download the visual studio source code project template
 2. Download Visual Studio 2019 and add the .Net framework component located near the bottom of the list of components. For more information on project type see: https://melonwiki.xyz/#/modders/quickstart
 3. In Visual Studio go to File -> New -> Create project from existing code. Select the project template and a wizard will pop up letting you name the project.
