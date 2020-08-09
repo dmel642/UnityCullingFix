@@ -5,9 +5,8 @@ Credit to KoochyRat for the original code I used in making this mod: https://git
 
 How to install the mod: 
 1. Go to https://melonwiki.xyz/ and install MelonLoader onto the Unity game you want to mod. 
-2. Run the game once and then close it. 
-3. Go into your game directory and place the correct .dll file inside the Mods folder
-4. Run the game and enjoy a culling free experience! 
+2. Go into your game directory and place the correct .dll file inside the Mods folder
+3. Run the game and enjoy a culling free experience! 
 
 If none of the current .dll files work for a particular Unity game, you can patch it yourself with some easy code modification: 
 
