@@ -19,4 +19,4 @@ If none of the current .dll files work for a particular Unity game, you can patc
 7. In the project, remove the old Assembly-CSharp.dll, Assembly-CSharp-firstpass.dll, and SteamVR.dll references in Visual Studio and add references for those files from the game you want to fix. 
 8. Go to project properties and under .Net framework select 3.5 if that is what it showed in DNspy. Select .Net framework 4.7.2 if DNspy showed .Net framework 4.0 or higher.
 9. Build the project and place your new .dll into the Mods folder of the game you want to fix.
-10. If you do patch the culling in a particular Unity game, please share the .dll with me and I'll add it here.
+10. If you do patch the culling in a particular Unity game, please share the .dll with me and I'll add it to the list here.
