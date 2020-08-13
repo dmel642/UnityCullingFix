@@ -14,8 +14,9 @@ How to install the mod:
 3. Run the game and enjoy a culling free experience! 
 
 If none of the current .dll files work for a particular Unity game, you can patch it yourself with some easy code modification: 
+**These are Version 1 instructions only** 
 
-1. Download the visual studio source code project template called UniversalCullFixProjV2.zip
+1. Download the visual studio source code project template called UniversalCullFixProjV1.zip from Version1 Folder.
 2. Download Visual Studio 2019 and add the .Net framework component located near the bottom of the list of components. For more information on project type see: https://melonwiki.xyz/#/modders/quickstart
 3. In Visual Studio go to File -> New -> Create project from existing code. Select the project template and a wizard will pop up letting you name the project.
 4. Download the latest dnspy here: https://github.com/0xd4d/dnSpy/releases
