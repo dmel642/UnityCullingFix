@@ -1,4 +1,4 @@
-This is Version 2.0 of the Unity Universal Culling Fix Mod. I would like to thank Koochyrat for programming this version of the script which directly references openvr_api.dll, eliminating
+This is Version 2.0 of the Unity Universal Culling Fix Mod. I would like to thank Koochyrat for programming this [version of the script](https://github.com/koochyrat/SteamVRFrustumAdjust/blob/master/SteamVRFrustumAdjustMod.cs) which directly references openvr_api.dll, eliminating
 the need for referencing Valve.VR. This makes the mod much simpler and more universal. I implemented it into a mod and did lots of testing.
 
 **Instructions**
