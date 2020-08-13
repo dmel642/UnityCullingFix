@@ -20,4 +20,4 @@ UniversalCullFixMono3.5.dll in the mods folder. The following Mono3.5 games are 
 
 In rare cases, a game that look like it is Mono 4 may actually be Mono 3.5. If you see a TargetFrameworkVersioning error in the MelonLoader command line, then try another version. 
 
-Please let me know if you encounter any bugs or issues!
+Please let me know if you encounter any bugs or issues! And also if you really want me to fix a particular game such as The Forest, I can look into modifying the code for a unique build that will work.
