@@ -1,5 +1,7 @@
 # Universal Unity Culling Fix
 
+UPDATE: Version 2 is out now! The process has been made a lot simpler and even more universal!
+
 DISCLAIMER: For educational purposes only. Modifying code at runtime is a violation of VRChat TOS. 
 
 This is a MelonLoader mod for fixing the culling/objects popping in & out issue that occurs in the peripheral vision on wide FOV headsets such as Pimax and the StarVR One. There are different versions of the mod depending on the type of Unity game, but so far Boneworks, VRChat, Blade & Sorcery, VTOL VR, IronWolf VR, Pistol Whip, Hot Dogs/Horseshoes & Hand grenades, Republique VR, and Shadow Legend VR have been tested and working. Other games may work too. 
