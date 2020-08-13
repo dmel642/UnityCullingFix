@@ -14,7 +14,7 @@ How to install the mod:
 3. Run the game and enjoy a culling free experience! 
 
 If none of the current .dll files work for a particular Unity game, you can patch it yourself with some easy code modification: 
-**These are instructions for Version 1 only** 
+**These are instructions for Version 1 only. Some of it still applies to Version 2 though** 
 
 1. Download the visual studio source code project template called UniversalCullFixProjV1.zip from Version1 Folder.
 2. Download Visual Studio 2019 and add the .Net framework component located near the bottom of the list of components. For more information on project type see: https://melonwiki.xyz/#/modders/quickstart
