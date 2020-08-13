@@ -10,7 +10,7 @@ that means you'll need to place UniversalCullFixil2cpp.dll in the Mods folder. T
 This game doesn't work: Until You Fall
 
 - Inside <Game>_Data folder if you see a Managed folder instead, open that. If you see a long list of files with UnityEngine.CoreModule.dll in there, then it is a Mono 4 Unity game.
-That means you'll need to place UniversalCullFixMono4.dll in the Mods folder. The following Mono4 games are confirmed to work: Blade & Sorcery, Republique VR, Iron Wolf VR, Arizona Sunshine, Superhot VR, and Thief Simulator VR.
+That means you'll need to place UniversalCullFixMono4.dll in the Mods folder. The following Mono4 games are confirmed to work: Blade & Sorcery, Republique VR, Iron Wolf VR, Arizona Sunshine, Superhot VR, Thief Simulator VR, and VTOL VR.
 This game doesn't work: Virtual Battlegrounds
 
 - If instead you see very few files inside the Managed folder and you only see UnityEngine.dll file, then it is a Mono 3.5 Unity game. That means you'll need to place
