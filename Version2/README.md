@@ -16,6 +16,8 @@ This game doesn't work: Virtual Battlegrounds
 - If instead you see very few files inside the Managed folder and you only see UnityEngine.dll file, then it is a Mono 3.5 Unity game. That means you'll need to place
 UniversalCullFixMono3.5.dll in the mods folder. The following Mono3.5 games are confirmed to work: H3VR, Shadows Legends, and Sairento VR. This game doesn't work: The Forest
 
+- The mod for Boneworks hasn't changed.
+
 In rare cases, a game that look like it is Mono 4 may actually be Mono 3.5. If you see a TargetFrameworkVersioning error in the MelonLoader command line, then try another version. 
 
 Please let me know if you encounter any bugs or issues!
