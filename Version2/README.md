@@ -18,7 +18,7 @@ That means you'll need to place UniversalCullFixMono4.dll in the Mods folder. Th
 - If instead you see very few files inside the Managed folder and you only see UnityEngine.dll file, then it is a Mono 3.5 Unity game. That means you'll need to place
 UniversalCullFixMono3.5.dll in the mods folder. The following Mono3.5 games are confirmed to work: H3VR, Shadows Legends, Superhot VR, and Sairento VR. This game doesn't work: The Forest
 
-- For Boneworks you can use either the original mod or the UniversalCullFixil2cpp.dll. But I'd recommend the original because it's implemented most correctly.
+- For Boneworks you can use either the original mod or the UniversalCullFixil2cpp.dll. But I'd recommend the original because it's implemented most precisely.
 
 In rare cases, a game that look like it is Mono 4 may actually be Mono 3.5. If you see a TargetFrameworkVersioning error in the MelonLoader command line, then try another version. 
 
