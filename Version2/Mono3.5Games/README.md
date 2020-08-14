@@ -1,4 +1,4 @@
-The following Mono .Net Framework 3.5 games have been tested and confirmed working: H3VR, Shadows Legends VR, and Sairento VR
+The following Mono .Net Framework 3.5 games have been tested and confirmed working: H3VR, Shadows Legends VR, Superhot VR, and Sairento VR
 
 The following game doesn't work: The Forest
 
