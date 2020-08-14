@@ -1,6 +1,6 @@
 # Universal Unity Culling Fix
 
-UPDATE: Version 2 is out now! The process has been made a lot simpler and even more universal!
+UPDATE: Version 2.0.1 is out now! The process has been made a lot simpler and even more universal!
 
 DISCLAIMER: For educational purposes only. Modifying code at runtime is a violation of VRChat TOS. 
 
