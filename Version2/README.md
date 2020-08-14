@@ -1,5 +1,5 @@
 Update: Changelog for v2.0.1
-- Fixed a bug where a game would sometimes unset the Camera causing the mod not to work. Now it supports Virtual Battlegrounds and more.
+- Fixed a bug where a game would sometimes unset the Camera causing the mod not to work. Now it supports Virtual Battlegrounds and more games.
 
 This is Version 2.0.1 of the MelonLoader Unity Universal Culling Fix Mod. I would like to thank Koochyrat for programming this [version of the script](https://github.com/koochyrat/SteamVRFrustumAdjust/blob/master/SteamVRFrustumAdjustMod.cs) which directly references openvr_api.dll, eliminating
 the need for referencing Valve.VR. This makes the mod much simpler and more universal. I implemented it into a mod and did lots of testing.
