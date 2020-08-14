@@ -4,9 +4,13 @@ Update: Changelog for v2.0.1
 This is Version 2.0.1 of the MelonLoader Unity Universal Culling Fix Mod. I would like to thank Koochyrat for programming this [version of the script](https://github.com/koochyrat/SteamVRFrustumAdjust/blob/master/SteamVRFrustumAdjustMod.cs) which directly references openvr_api.dll, eliminating
 the need for referencing Valve.VR. This makes the mod much simpler and more universal. I implemented it into a mod and did lots of testing.
 
-**Instructions**
+**Instructions**:
 
-First determine the type of Unity game that you want to patch:
+- Go to https://melonwiki.xyz/ and install MelonLoader onto the Unity game you want to mod.
+- Go into your game directory and place the correct .dll file inside the Mods folder
+- Run the game and enjoy a culling free experience!
+
+To determine the correct dll for the Unity game that you want to patch:
 
 - Go into the root game folder and open the (Game)_Data folder where (Game) is the title of the game. Inside that folder, if you see a folder named "il2cpp_data"
 that means you'll need to place UniversalCullFixil2cpp.dll in the Mods folder. The following Il2cpp games are confirmed to work: Boneworks, VRChat, Pistol Whip, The Room VR, and Audica.
