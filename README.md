@@ -2,8 +2,6 @@
 
 UPDATE: Version 2.0.1 is out now! The process has been made a lot simpler and even more universal!
 
-DISCLAIMER: For educational purposes only. Modifying code at runtime is a violation of VRChat TOS. 
-
 This is a MelonLoader mod for fixing the culling/objects popping in & out issue that occurs in the peripheral vision on wide FOV headsets such as Pimax and the StarVR One. There are different versions of the mod depending on the type of Unity game, so far Boneworks, VRChat, Pistol Whip, The Room VR, Audica, Blade & Sorcery, Republique VR, Iron Wolf VR, Arizona Sunshine, Superhot VR, Thief Simulator VR, VTOL VR, H3VR, Shadows Legends VR, Virtual Battlegrounds, and Sairento VR are confirmed to work. Any other Unity game should work too unless it's a unique case. 
 
 Credit to KoochyRat for the original code I used in making this mod: https://github.com/koochyrat/SteamVRFrustumAdjust
