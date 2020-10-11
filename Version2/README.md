@@ -1,5 +1,5 @@
 Update: Changelog for v2.0.1
-- I've fixed a bug where some games after loading a scene, would unset the Camera causing the mod not to work. This problem happened in Virtual Battlegrounds and also in VRChat when switching between Worlds. 
+- I've fixed a bug where some games after loading a scene, would unset the Camera causing the mod not to work.
 
 This is Version 2.0.1 of the MelonLoader Unity Universal Culling Fix Mod. I would like to thank Koochyrat for programming this [version of the script](https://github.com/koochyrat/SteamVRFrustumAdjust/blob/master/SteamVRFrustumAdjustMod.cs) which directly references openvr_api.dll, eliminating
 the need for referencing Valve.VR. This makes the mod much simpler and more universal. I implemented it into a mod and did lots of testing.
@@ -13,7 +13,7 @@ the need for referencing Valve.VR. This makes the mod much simpler and more univ
 To determine the correct dll for the Unity game that you want to patch:
 
 - Go into the root game folder and open the (Game)_Data folder where (Game) is the title of the game. Inside that folder, if you see a folder named "il2cpp_data"
-that means you'll need to place UniversalCullFixil2cpp.dll in the Mods folder. The following Il2cpp games are confirmed to work: Boneworks, VRChat, Pistol Whip, The Room VR, and Audica.
+that means you'll need to place UniversalCullFixil2cpp.dll in the Mods folder. The following Il2cpp games are confirmed to work: Boneworks, Pistol Whip, The Room VR, and Audica.
 This game doesn't work: Until You Fall
 
 - Inside (Game)_Data folder if you see a Managed folder instead, open that. If you see a long list of files with UnityEngine.CoreModule.dll in there, then it is a Mono 4 Unity game.
